@@ -9,12 +9,16 @@ header .navbar {
     height: 200px !important;
 }
 
+.thumbnail{
+    height: 400px;
+}
+
 .navbar-default {
     border: none;
 }
 
 .navbar-brand {
-    color: #222;
+    color: #fff !important;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
@@ -30,7 +34,8 @@ header .navbar-collapse ul.navbar-nav {
 }
 
 header .navbar-default {
-    background-color: #F8F8F8;
+    background-color: transparent;
+    color:#fff !important;
 }
 
 header .nav li a:hover,
@@ -78,10 +83,13 @@ header .navbar-nav > li > a {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 24px;
 }
 
 .dropdown-menu li a:hover {
-    color: #fff !important;
+    color: orange !important;
 }
 
 header .nav .caret {
@@ -130,11 +138,28 @@ header .nav li .dropdown-menu li a {
     border-bottom: 1px solid #dadada;
     letter-spacing: 3px;
     text-transform: uppercase;
-    span {
-        font-family: $fontSerif;
-        font-weight: normal;
-        font-style: italic;
-        text-transform: lowercase;
-        color: #777;
-    }
+    color: #fff !important;
+}
+
+a:hover {
+
+    border-bottom:8px solid #FFA500;padding-bottom:10px;
+}
+
+.main{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+
+
+  body {
+  background: url(img/main_image.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
