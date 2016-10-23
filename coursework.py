@@ -32,12 +32,9 @@ def team():
     return page
 
 
-@app.route('/more-info')
-def info():
-    headers = {'X-Auth-Token': api_key, 'X-Response-Control': 'minified'}
-    r = requests.get('http://api.football-data.org/v1/competitions/398/teams', headers=headers)
-    team_list = r.json()
-    return render_template("more-info.html", teams=team_list['teams'])
+@app.route('/leagues')
+def leagues():
+    return render_template("leagues.html")
 
 
 if __name__ == '__main__':
