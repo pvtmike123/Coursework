@@ -14,11 +14,9 @@ def generator(file):
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'nickname': 'User'}  # fake user
 
     return render_template("index.html",
-                           title='Home',
-                           user=user)
+                           title='Home')
 
 
 @app.errorhandler(404)
@@ -29,6 +27,12 @@ def page_not_found(error):
 @app.route('/english_teams')
 def team():
     page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/english_teams.json")
+    return page
+
+
+@app.route('/scottish_teams')
+def team_1():
+    page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/scottish_teams.json")
     return page
 
 

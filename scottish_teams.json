@@ -1,0 +1,220 @@
+{
+	"_links": {
+		"self": {
+			"href": "http://api.football-data.org/v1/competitions/398/teams"
+		},
+		"competition": {
+			"href": "http://api.football-data.org/v1/competitions/398"
+		}
+	},
+	"count": 20,
+	"teams": [{
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/66"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/66/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/66/players"
+			}
+		},
+		"name": "Heart Of Midlothian",
+		"code": "HMFC",
+		"shortName": "Hearts FC",
+		"squadMarketValue": "5,000,000 €",
+		"crestUrl": "static/img/scotland/hearts_image.png"
+		"founded": "1874",
+		"ground": "Tynecastle Park",
+		"headCoach": "Robbie Neilson"
+
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/73"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/73/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/73/players"
+			}
+		},
+		"name": "Glasgow Celtic",
+		"code": "BHOYS",
+		"shortName": "Celtic",
+		"squadMarketValue": "50,000,000 €",
+		"crestUrl": "static/img/scotland/celtic_fc.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/1044"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/1044/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/1044/players"
+			}
+		},
+		"name": "Aberdeen",
+		"code": "ABFC",
+		"shortName": "Aberdeen FC",
+		"squadMarketValue": "2,500,000 €",
+		"crestUrl": "static/img/scotland/aberdeen_fc.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/58"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/58/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/58/players"
+			}
+		},
+		"name": "St JohnStone",
+		"code": "StFc",
+		"shortName": "The Saints",
+		"squadMarketValue": "1,000,000 €",
+		"crestUrl": "static/img/scotland/st_johnstone.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/62"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/62/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/62/players"
+			}
+		},
+		"name": "Glasgow Rangers",
+		"code": "RFC",
+		"shortName": "Rangers",
+		"squadMarketValue": "25,000,000 €",
+		"crestUrl": "static/img/scotland/rangers.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/346"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/346/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/346/players"
+			}
+		},
+		"name": "Inverness CT",
+		"code": "ICTFC",
+		"shortName": "Inverness Caledonian Thistle",
+		"squadMarketValue": "1,000,000 €",
+		"crestUrl": "static/img/scotland/inverness.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/338"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/338/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/338/players"
+			}
+		},
+		"name": "Ross County",
+		"code": "RCFC",
+		"shortName": "The Staggies",
+		"squadMarketValue": "800,000 €",
+		"crestUrl": "static/img/scotland/ross_county.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/71"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/71/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/71/players"
+			}
+		},
+		"name": "Kilmarnock",
+		"code": "KFC",
+		"shortName": "Killie",
+		"squadMarketValue": "1,800,000 €",
+		"crestUrl": "static/img/scotland/kilmarnock.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/68"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/68/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/68/players"
+			}
+		},
+		"name": "Motherwell",
+		"code": "MFC",
+		"shortName": "Steelmen",
+		"squadMarketValue": "2,000,000 €",
+		"crestUrl": "static/img/scotland/motherwell.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/354"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/354/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/354/players"
+			}
+		},
+		"name": "Hamilton",
+		"code": "HAFC",
+		"shortName": "The Accies",
+		"squadMarketValue": "1,000,000 €",
+		"crestUrl": "static/img/scotland/hamilton.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/61"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/61/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/61/players"
+			}
+		},
+		"name": "Patrick Thistle",
+		"code": "PTFC",
+		"shortName": "The Jags",
+		"squadMarketValue": "2,000,000 €",
+		"crestUrl": "static/img/scotland/patrick.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/72"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/72/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/72/players"
+			}
+		},
+		"name": "Dundee",
+		"code": "DFC",
+		"shortName": "The Dark Blues,",
+		"squadMarketValue": "3,000,000 €",
+		"crestUrl": "static/img/scotland/dundee.png"
+	}]
+}
