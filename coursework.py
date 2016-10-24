@@ -4,6 +4,8 @@ import json
 
 app = Flask(__name__)
 
+# generator file loads .json file which then renders on teams.html
+
 def generator(file):
     with open(file) as data_file:
         data = json.load(data_file)
@@ -33,6 +35,12 @@ def team():
 @app.route('/scottish_teams')
 def team_1():
     page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/scottish_teams.json")
+    return page
+
+
+@app.route('/germany_teams')
+def team_2():
+    page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/germany_teams.json")
     return page
 
 

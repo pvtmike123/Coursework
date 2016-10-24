@@ -1,0 +1,318 @@
+{
+	"_links": {
+		"self": {
+			"href": "http://api.football-data.org/v1/competitions/398/teams"
+		},
+		"competition": {
+			"href": "http://api.football-data.org/v1/competitions/398"
+		}
+	},
+	"count": 20,
+	"teams": [{
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/66"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/66/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/66/players"
+			}
+		},
+		"name": "FC Bayern München",
+		"code": "FCBM",
+		"shortName": "Bayern",
+		"squadMarketValue": "600,000,000 €",
+		"crestUrl": "static/img/germany/bayern.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/73"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/73/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/73/players"
+			}
+		},
+		"name": "RB Leipzig",
+		"code": "RBFC",
+		"shortName": "Leipzig",
+		"squadMarketValue": "221,000,000 €",
+		"crestUrl": "static/img/germany/leipzig.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/1044"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/1044/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/1044/players"
+			}
+		},
+		"name": "Hertha Berlin",
+		"code": "HBFC",
+		"shortName": "Hertha",
+		"squadMarketValue": "110,000,000 €",
+		"crestUrl": "static/img/germany/hertha.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/58"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/58/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/58/players"
+			}
+		},
+		"name": "TSG 1899 Hoffenheim",
+		"code": "HFC",
+		"shortName": "Hoffenheim",
+		"squadMarketValue": "135,750,000 €",
+		"crestUrl": "static/img/germany/hoffenheim.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/62"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/62/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/62/players"
+			}
+		},
+		"name": "FC Koln",
+		"code": "FCK",
+		"shortName": "Koln",
+		"squadMarketValue": "202,250,000 €",
+		"crestUrl": "static/img/germany/cologne.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/346"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/346/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/346/players"
+			}
+		},
+		"name": "Borussia Dortmund",
+		"code": "BDFC",
+		"shortName": "Dortmund",
+		"squadMarketValue": "300,500,000 €",
+		"crestUrl": "static/img/germany/dortmund.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/338"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/338/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/338/players"
+			}
+		},
+		"name": "Eintracht Frankfurt",
+		"code": "EFFC",
+		"shortName": "Frankfurt",
+		"squadMarketValue": "189,500,000 €",
+		"crestUrl": "static/img/germany/frankfurt.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/71"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/71/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/71/players"
+			}
+		},
+		"name": "Sport-Club Freiburg",
+		"code": "SCF",
+		"shortName": "Freiburg",
+		"squadMarketValue": "78,500,000 €",
+		"crestUrl": "static/img/germany/freiburg.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/68"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/68/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/68/players"
+			}
+		},
+		"name": "FSV Mains 05",
+		"code": "FSVM",
+		"shortName": "Mains",
+		"squadMarketValue": "67,000,000 €",
+		"crestUrl": "static/img/germany/mainz.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/354"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/354/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/354/players"
+			}
+		},
+		"name": "Borussia Mönchengladbach",
+		"code": "BMFC",
+		"shortName": "Monchengladbach",
+		"squadMarketValue": "135,750,000 €",
+		"crestUrl": "static/img/germany/monchengladbach.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/61"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/61/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/61/players"
+			}
+		},
+		"name": "Bayern 04 Leverkusen",
+		"code": "BLFC",
+		"shortName": "Leverkusen",
+		"squadMarketValue": "350,800,000 €",
+		"crestUrl": "static/img/germany/leverkusen.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/72"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/72/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/72/players"
+			}
+		},
+		"name": "FC Augsburg",
+		"code": "FCA",
+		"shortName": "Augsburg",
+		"squadMarketValue": "100,100,000 €",
+		"crestUrl": "static/img/germany/augsburg.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/67"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/67/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/67/players"
+			}
+		},
+		"name": "SV Darmstadt 98",
+		"code": "SVD",
+		"shortName": "Darmstadt",
+		"squadMarketValue": "148,250,000 €",
+		"crestUrl": "static/img/germany/darmstadt.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/340"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/340/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/340/players"
+			}
+		},
+		"name": "FC Schalke 04",
+		"code": "FCS",
+		"shortName": "Schalke",
+		"squadMarketValue": "210,000,000 €",
+		"crestUrl": "static/img/germany/schalke.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/57"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/57/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/57/players"
+			}
+		},
+		"name": "SV Werder Bremen",
+		"code": "SVWB",
+		"shortName": "Bremen",
+		"squadMarketValue": "230,500,000 €",
+		"crestUrl": "static/img/germany/bremen.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/563"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/563/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/563/players"
+			}
+		},
+		"name": "VfL Wolfsburg",
+		"code": "VfLW",
+		"shortName": "Wolfsburg",
+		"squadMarketValue": "208,500,000 €",
+		"crestUrl": "static/img/germany/wolfsburg.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/70"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/70/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/70/players"
+			}
+		},
+		"name": "FC Ingolstadt 04",
+		"code": "FCI",
+		"shortName": "Ingolstadt",
+		"squadMarketValue": "103,250,000 €",
+		"crestUrl": "static/img/germany/ingolstadt.png"
+	}, {
+		"_links": {
+			"self": {
+				"href": "http://api.football-data.org/v1/teams/64"
+			},
+			"fixtures": {
+				"href": "http://api.football-data.org/v1/teams/64/fixtures"
+			},
+			"players": {
+				"href": "http://api.football-data.org/v1/teams/64/players"
+			}
+		},
+		"name": "Hamburger Sv",
+		"code": "HSV",
+		"shortName": "Hamburger",
+		"squadMarketValue": "187,200,000 €",
+		"crestUrl": "static/img/germany/hamburger.png"
+	}]
+}
