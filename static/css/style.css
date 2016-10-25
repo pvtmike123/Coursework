@@ -9,10 +9,6 @@ header .navbar {
     height: 200px !important;
 }
 
-.thumbnail{
-    height: 400px;
-}
-
 .navbar-default {
     border: none;
 }

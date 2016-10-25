@@ -70,5 +70,11 @@ def api():
     return page
 
 
+@app.route('/info')
+def moreinfo():
+
+    return render_template("more-info.html")
+
+
 if __name__ == '__main__':
     app.run('0.0.0.0')
