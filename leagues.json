@@ -1,1 +1,67 @@
-{"leagues":{"english" : "balh", "enalgish2": "blah3", "scotland": "blah2"}}
+{
+  "_links": {
+    "self": {
+      "href": "http://api.football-data.org/v1/competitions/398/teams"
+    },
+    "competition": {
+      "href": "http://api.football-data.org/v1/competitions/398"
+    }
+  },
+  "count": 20,
+  "teams": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/66"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/66/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/66/players"
+        }
+      },
+      "name": "Germany",
+      "code": "",
+      "shortName": "Bundesliga",
+      "squadMarketValue": "/germany_teams",
+      "crestUrl": "static/img/germany_flag.png"
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/73"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/73/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/73/players"
+        }
+      },
+      "name": "Scotland",
+      "code": "",
+      "shortName": "Ladbokes Premiership",
+      "squadMarketValue": "/scottish_teams",
+      "crestUrl": "static/img/scotland_flag.png"
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/teams/1044"
+        },
+        "fixtures": {
+          "href": "http://api.football-data.org/v1/teams/1044/fixtures"
+        },
+        "players": {
+          "href": "http://api.football-data.org/v1/teams/1044/players"
+        }
+      },
+      "name": "England",
+      "code": "",
+      "shortName": "Barclays Premier League",
+      "squadMarketValue": "/english_teams",
+      "crestUrl": "static/img/england_flag.png"
+    }
+  ]
+}

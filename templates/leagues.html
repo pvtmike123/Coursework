@@ -1,58 +1,29 @@
 {% extends "base.html" %}
 {% block content %}
 
+    {% for team in teams %}
+
      <!-- Page Content -->
+
     <div class="container">
 
-        <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3></h3>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Page Features -->
+        <!-- Club Thumbnails -->
         <div class="row text-center">
 
             <div class="col-md-4 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="../static/img/germany_flag.png" alt="">
+                    <img src="{{ team.crestUrl }}" alt="" class="img">
                     <div class="caption">
-                        <h3>Germany</h3>
-                        <p>German Bundesliga League</p>
+                        <h3>{{ team.name }}</h3>
+                        <p><strong>League, </strong>{{ team.shortName }}</p>
                         <p>
-                            <a href="/germany_teams" class="btn btn-primary">More info!</a>
+                            <a href="{{ team.squadMarketValue }}" class="btn btn-primary">More Info!</a>
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="../static/img/scotland_flag.png" alt="">
-                    <div class="caption">
-                        <h3>Scotland</h3>
-                        <p>Ladbrokes Premiership</p>
-                        <p>
-                            <a href="/scottish_teams" class="btn btn-primary">More info!</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="../static/img/england_flag.png" alt="">
-                    <div class="caption">
-                        <h3>England</h3>
-                        <p>English Barclarys Premier League</p>
-                        <p>
-                            <a href="/english_teams" class="btn btn-primary">More info!</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+{% endfor %}
 
 
 {% endblock %}

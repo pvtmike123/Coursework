@@ -4,13 +4,27 @@ import json
 
 app = Flask(__name__)
 
-# generator file loads .json file which then renders on teams.html
+# generator function loads .json file which then renders on teams.html
 
 def generator(file):
     with open(file) as data_file:
         data = json.load(data_file)
 
     return render_template("teams.html", teams=data['teams'])
+
+
+def api(file):
+    with open(file) as data_file:
+        data = json.load(data_file)
+
+    return render_template("api.html", teams=data['teams'])
+
+
+def country(file):
+    with open(file) as data_file:
+        data = json.load(data_file)
+
+    return render_template("leagues.html", teams=data['teams'])
 
 
 @app.route('/')
@@ -46,7 +60,14 @@ def team_2():
 
 @app.route('/leagues')
 def leagues():
-    return render_template("leagues.html")
+    page = country("/Users/flemin100/Documents/Uni/AWT/coursework/leagues.json")
+    return page
+
+
+@app.route('/api')
+def api():
+    page = api("/Users/flemin100/Documents/Uni/AWT/coursework/english_teams.json")
+    return page
 
 
 if __name__ == '__main__':
