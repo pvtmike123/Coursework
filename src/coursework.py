@@ -42,31 +42,31 @@ def page_not_found(error):
 
 @app.route('/english_teams')
 def team():
-    page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/english_teams.json")
+    page = generator("/home/tc/Coursework/Coursework/english_teams.json")
     return page
 
 
 @app.route('/scottish_teams')
 def team_1():
-    page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/scottish_teams.json")
+    page = generator("/home/tc/Coursework/Coursework/scottish_teams.json")
     return page
 
 
 @app.route('/germany_teams')
 def team_2():
-    page = generator("/Users/flemin100/Documents/Uni/AWT/coursework/germany_teams.json")
+    page = generator("/home/tc/Coursework/Coursework/germany_teams.json")
     return page
 
 
 @app.route('/leagues')
 def leagues():
-    page = country("/Users/flemin100/Documents/Uni/AWT/coursework/leagues.json")
+    page = country("/home/tc/Coursework/Coursework/coursework/leagues.json")
     return page
 
 
 @app.route('/api')
 def api():
-    page = api("/Users/flemin100/Documents/Uni/AWT/coursework/english_teams.json")
+    page = api("/home/tc/Coursework/Coursework/english_teams.json")
     return page
 
 
