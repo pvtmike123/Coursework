@@ -15,5 +15,6 @@
 4.3 Enter the password foo\
 5. SSH connection with levinux has now been established\
 6. Change directory to Coursework (cd Coursework)\
+7. Change directory to Coursework (cd Coursework)\ again
 7. Once inside the Coursework folder python coursework.py\
 8. The web app should now bee running on localhost:5000}
